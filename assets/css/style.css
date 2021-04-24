@@ -112,3 +112,37 @@ section {
 
 /* Hero Style End */
 
+/* Section title start */
+
+.section-title {
+    font-size: 48px;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    padding-right: 30px;
+    text-align: right;
+    margin: 0 auto 35px auto;
+    width: 20%;
+    float: left;
+}
+
+/* About me section */
+
+.first-section {
+    text-align: right;
+    background-color: var(--secondary-color);
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.first-section p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    width: 80%;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    padding-left: 30px;
+    border-left: 8px solid var(--tertiary-color);
+}
+
+/* About me section end */

@@ -146,3 +146,30 @@ section {
 }
 
 /* About me section end */
+
+/* Contact me section Style */
+
+.third-section .section-title {
+    border-right: 8px solid var(--tertiary-color);
+}
+
+.third-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.third-section nav ul li a {
+    padding: 50px 50px;
+    font-weight: bold;
+    font-size: 2vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+}
+
+/* Contact me section Style End */

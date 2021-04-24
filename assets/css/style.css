@@ -1,5 +1,80 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #FFFFFF;
-    --tertiary-color: #DECFCF;
+  --primary-color: #000000;
+  --secondary-color: #FFFFFF;
+  --tertiary-color: #DECFCF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color:var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Style */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.8vw;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/* End Header Style */
+
+/* Footer Style Start */
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer p {
+    color: var(--secondary-color);
+    font-size: 17px;
+    font-style: lighter;
+    margin: 0;
 }

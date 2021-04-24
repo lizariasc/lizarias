@@ -78,3 +78,37 @@ footer p {
     font-style: lighter;
     margin: 0;
 }
+
+/* Footer Style End */
+
+/* Hero Style Start */
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("../images/heroimage1.jpg");
+    height: 600px;
+    opacity: 0.60;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-title {
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  width: 400px;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  opacity: 100%;
+  position: absolute;
+  bottom: 120px;
+  right: 0px;
+}
+
+/* Hero Style End */
+

@@ -182,14 +182,18 @@ section {
 }
 
  .columns a img {
-    margin: 10px 10px;
-    width: 350px;
+    margin: 0 0 10px 10px;
+    width: 450px;
     height: 200px;
 }
 
 .columns small {
     height: 100px;
     width: 200px;
+}
+
+.one {
+    margin: 0 0 10px 0;
 }
 
 /* Contact me section Style */

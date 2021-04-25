@@ -158,9 +158,8 @@ section {
 .second-section h2 {
     color: var(--secondary-color);
     border-right: 8px solid var(--tertiary-color);
-    line-height: 1210px;
+    line-height: 1216px;
 }
-
 
 .surf-report img {
     width: 75%;
@@ -178,6 +177,28 @@ section {
     border: 5px solid var(--tertiary-color);
 }
 
+.surf-report,
+.projects {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 60px;
+    left: 300px;
+    padding: 5px;
+    background-color: var(--tertiary-color);
+}
+
+.bottom-left h3 {
+    font-size: 35px;
+}
+
+.bottom-left p {
+    font-size: 20px;
+    text-align: left;
+}
 /* Contact me section Style */
 
 .third-section .section-title {

@@ -161,6 +161,8 @@ section {
 
 .work-section {
     border: 5px solid var(--tertiary-color);
+    opacity: 0.50;
+    background-color: var(--tertiary-color);
 }
 
 .project-images {
@@ -172,7 +174,7 @@ section {
 }
 
 .surf-report a img {
-    width: 95%;
+    width: 94%;
     margin: 0 0 10px 44px;
 }
 
@@ -194,7 +196,7 @@ section {
 
 /* Work Section Style end */
 
-/* Labels on images */
+/* IMAGES LABEL START */
 
 .surf-report, .columns {
     position: relative;
@@ -261,6 +263,8 @@ section {
     font-size: 25px;
 }
 
+/* IMAGES LABEL FINISH */
+
 /* Contact me section Style */
 
 .third-section .section-title {
@@ -287,3 +291,12 @@ section {
 }
 
 /* Contact me section Style End */
+
+/* CSS ENHANCEMENTS */
+
+  .work-section:hover {
+    opacity: 1;
+    transition: .5s ease;
+  }
+  
+  

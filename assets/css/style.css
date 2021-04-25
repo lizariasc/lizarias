@@ -90,7 +90,7 @@ section {
 
 .hero {
     background-image: url("../images/heroimage1.jpg");
-    height: 600px;
+    height: 500px;
     opacity: 0.60;
     background-size: cover;
     background-position: center;
@@ -157,48 +157,41 @@ section {
 
 .second-section h2 {
     color: var(--secondary-color);
-    border-right: 8px solid var(--tertiary-color);
-    line-height: 1216px;
-}
-
-.surf-report img {
-    width: 75%;
-    margin-left: 44px;
-}
-
-.projects img {
-    width: 35%;
-    height: 250px;
-    margin: 10px;
-    margin-left: 44px;
 }
 
 .work-section {
     border: 5px solid var(--tertiary-color);
 }
 
-.surf-report,
-.projects {
-    position: relative;
-    text-align: center;
+.project-images {
+    border-left: 8px solid var(--tertiary-color);
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.bottom-left {
-    position: absolute;
-    bottom: 60px;
-    left: 300px;
-    padding: 5px;
-    background-color: var(--tertiary-color);
+.surf-report a img {
+    width: 95%;
+    margin-left: 44px;
 }
 
-.bottom-left h3 {
-    font-size: 35px;
+.columns {
+    margin-left: 44px;
+    display: flex;
 }
 
-.bottom-left p {
-    font-size: 20px;
-    text-align: left;
+ .columns a img {
+    margin: 10px 10px;
+    width: 350px;
+    height: 200px;
 }
+
+.columns small {
+    height: 100px;
+    width: 200px;
+}
+
 /* Contact me section Style */
 
 .third-section .section-title {

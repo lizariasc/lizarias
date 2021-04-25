@@ -158,24 +158,24 @@ section {
 .second-section h2 {
     color: var(--secondary-color);
     border-right: 8px solid var(--tertiary-color);
-    line-height: 1167px;
+    line-height: 1210px;
 }
+
 
 .surf-report img {
     width: 75%;
-    margin-left: 50px;
+    margin-left: 44px;
 }
 
 .projects img {
-    width: 37%;
+    width: 35%;
     height: 250px;
-    padding: 10px;
+    margin: 10px;
+    margin-left: 44px;
 }
 
-.projects div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
+.work-section {
+    border: 5px solid var(--tertiary-color);
 }
 
 /* Contact me section Style */

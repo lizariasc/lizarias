@@ -173,7 +173,7 @@ section {
 
 .surf-report a img {
     width: 95%;
-    margin-left: 44px;
+    margin: 0 0 10px 44px;
 }
 
 .columns {
@@ -192,8 +192,73 @@ section {
     width: 200px;
 }
 
-.one {
-    margin: 0 0 10px 0;
+/* Work Section Style end */
+
+/* Labels on images */
+
+.surf-report, .columns {
+    position: relative;
+    text-align: left;
+    color: var(--tertiary-color);
+  }
+
+  /* Surf label text */
+  .surf-label {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 25px;
+  }
+
+  /* LED Wall label */
+  
+  .led-label {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 25px;
+}
+
+  /* Calculador label */
+
+  .calculator-label {
+    position: absolute;
+    bottom: 40px;
+    right: 190px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 25px;
+  }
+
+  /* pastel puzzels label */
+
+  .pastel-label {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 25px;
+ }
+
+/* Run buddy label */
+
+.run-label {
+    position: absolute;
+    bottom: 40px;
+    right: 280px;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 25px;
 }
 
 /* Contact me section Style */

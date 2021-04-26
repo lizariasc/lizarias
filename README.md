@@ -13,4 +13,5 @@ https://lizariasc.github.io/lizarias/
 ## Contribution
 2021 Liz Arias.
 
-## Screenshot of the Website
+## ## Mock up of the Website
+![Mock up](./assets/images/screenshot.png "Mock up")
